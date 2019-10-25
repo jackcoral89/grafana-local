@@ -460,3 +460,46 @@ t=2019-10-25T16:51:31+0200 lvl=info msg="Backend rendering via phantomJS" logger
 t=2019-10-25T16:51:31+0200 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
 t=2019-10-25T16:51:31+0200 lvl=info msg="Initializing Stream Manager"
 t=2019-10-25T16:51:31+0200 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-10-25T17:09:18+0200 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-10-25T17:09:18+0200 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-10-25T17:09:18+0200 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-10-25T17:09:18+0200 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-10-25T17:09:18+0200 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-10-25T17:09:18+0200 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-10-25T17:09:18+0200 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-10-25T17:09:18+0200 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-10-25T17:09:18+0200 lvl=info msg="App mode production" logger=settings
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-10-25T17:09:18+0200 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-10-25T17:09:18+0200 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing HooksService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing LoginService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing SearchService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing TracingService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-10-25T17:09:19+0200 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-10-25T17:09:19+0200 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-10-25T17:09:19+0200 lvl=info msg="Initializing Stream Manager"
+t=2019-10-25T17:09:19+0200 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-10-25T17:09:21+0200 lvl=info msg="Successful Logout" logger=http.server User=admin@localhost
+t=2019-10-25T17:09:21+0200 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=[::1] time_ms=91 size=29 referer=http://localhost:8080/profile/password
+t=2019-10-25T17:09:27+0200 lvl=eror msg="Invalid username or password" logger=context userId=0 orgId=0 uname= error="Invalid Username or Password"
+t=2019-10-25T17:09:27+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=5 size=42 referer=http://localhost:8080/login
+t=2019-10-25T17:09:33+0200 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2019-10-25T17:13:29+0200 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/tsdb/query status=400 remote_addr=[::1] time_ms=221 size=440 referer="http://localhost:8080/dashboard/new?tab=queries&panelId=2&edit&fullscreen&orgId=1&gettingstarted"
+t=2019-10-25T17:14:14+0200 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/tsdb/query status=400 remote_addr=[::1] time_ms=41 size=347 referer="http://localhost:8080/dashboard/new?tab=queries&panelId=2&edit&fullscreen&orgId=1&gettingstarted"
+t=2019-10-25T17:16:11+0200 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/dashboards/db/ status=412 remote_addr=[::1] time_ms=4 size=96 referer="http://localhost:8080/dashboard/new?orgId=1&gettingstarted"
