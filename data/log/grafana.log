@@ -570,3 +570,1079 @@ t=2019-10-25T17:31:43+0200 lvl=info msg="Stopped InternalMetricsService" logger=
 t=2019-10-25T17:31:43+0200 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
 t=2019-10-25T17:31:43+0200 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
 t=2019-10-25T17:31:43+0200 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-05T12:04:06+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-05T12:04:06+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-05T12:04:06+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-05T12:04:06+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-05T12:04:06+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-05T12:04:06+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-05T12:04:06+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-05T12:04:06+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-05T12:04:06+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-05T12:04:06+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-05T12:04:06+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-05T12:04:06+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-05T12:04:06+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-05T12:04:06+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-05T12:04:06+0100 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2019-11-05T12:04:06+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=127.0.0.1 time_ms=3 size=29 referer=
+t=2019-11-05T12:04:11+0100 lvl=eror msg="Invalid username or password" logger=context userId=0 orgId=0 uname= error="Invalid Username or Password"
+t=2019-11-05T12:04:11+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=35 size=42 referer=http://localhost:8080/login
+t=2019-11-05T12:04:11+0100 lvl=eror msg="Invalid username or password" logger=context userId=0 orgId=0 uname= error="Invalid Username or Password"
+t=2019-11-05T12:04:11+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=7 size=42 referer=http://localhost:8080/login
+t=2019-11-05T12:04:11+0100 lvl=eror msg="Invalid username or password" logger=context userId=0 orgId=0 uname= error="Invalid Username or Password"
+t=2019-11-05T12:04:11+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=1 size=42 referer=http://localhost:8080/login
+t=2019-11-05T12:04:12+0100 lvl=eror msg="Invalid username or password" logger=context userId=0 orgId=0 uname= error="Invalid Username or Password"
+t=2019-11-05T12:04:12+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=1 size=42 referer=http://localhost:8080/login
+t=2019-11-05T12:04:16+0100 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2019-11-05T12:05:40+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-05T12:05:40+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-05T12:05:40+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-06T16:28:26+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-06T16:28:26+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-06T16:28:26+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-06T16:28:26+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-06T16:28:26+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-06T16:28:26+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-06T16:28:26+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-06T16:28:26+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-06T16:28:26+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-06T16:28:26+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-06T16:28:26+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-06T16:28:27+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-06T16:28:27+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-06T16:28:27+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-06T16:28:27+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-06T16:32:30+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-06T16:32:30+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-06T16:32:30+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-06T16:32:34+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-06T16:32:34+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-06T16:32:34+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-06T16:32:34+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-06T16:32:34+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-06T16:32:34+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-06T16:32:34+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-06T16:32:34+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-06T16:32:34+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-06T16:32:34+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-06T16:32:34+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-06T16:32:34+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-06T16:32:34+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-06T16:32:34+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-06T16:32:49+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-06T16:32:49+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-06T16:32:49+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-06T17:03:36+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-06T17:03:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-06T17:03:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-06T17:03:36+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-06T17:03:36+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-06T17:03:36+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-06T17:03:36+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-06T17:03:36+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-06T17:03:36+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-06T17:03:36+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-06T17:03:36+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-06T17:03:36+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-06T17:03:36+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-06T17:03:36+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-06T17:18:23+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-06T17:18:23+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-06T17:18:23+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:15:36+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:15:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:15:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:15:36+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:15:36+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:15:36+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:15:36+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:15:36+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:15:36+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:15:36+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:15:36+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:15:37+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:15:37+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:15:37+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:15:37+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:23:34+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:23:34+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:23:34+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:23:36+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:23:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:23:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:23:36+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:23:36+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:23:36+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:23:36+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:23:36+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:23:36+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:23:36+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:23:36+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:23:36+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:23:36+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:23:36+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:23:50+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=0 size=29 referer=
+t=2019-11-07T11:23:56+0100 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2019-11-07T11:25:00+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:25:00+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:25:00+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:25:13+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:25:13+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:25:13+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:25:13+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:25:13+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:25:13+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:25:13+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:25:13+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:25:13+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:25:13+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:25:13+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:25:13+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:25:13+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:25:13+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:26:22+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:26:22+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:26:22+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:26:23+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:26:23+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:26:23+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:26:23+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:26:23+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:26:23+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:26:23+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:26:23+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:26:23+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:26:23+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:26:23+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:26:23+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:26:24+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:26:24+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:28:47+0100 lvl=info msg="Successful Logout" logger=http.server User=admin@localhost
+t=2019-11-07T11:28:47+0100 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=[::1] time_ms=13 size=29 referer=http://localhost:8080/profile
+t=2019-11-07T11:37:41+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:37:41+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:37:41+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:37:42+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:37:42+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:37:42+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:37:42+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:37:42+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:37:42+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:37:42+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:37:42+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:37:42+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:37:42+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:37:42+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:37:42+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:37:43+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:37:43+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:38:35+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:38:35+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:38:36+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:38:36+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:38:36+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:38:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:38:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:38:36+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:38:36+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:38:36+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:38:36+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:38:36+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:38:36+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:38:36+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:38:36+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:38:36+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:38:36+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:38:37+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:38:37+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:38:37+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:38:37+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:39:20+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:39:20+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:39:20+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:39:22+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:39:22+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:39:22+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:39:22+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:39:22+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:39:22+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:39:22+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:39:22+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:39:22+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:39:22+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:39:22+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:39:22+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:39:22+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:39:22+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:39:35+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:39:35+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:39:35+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:39:36+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:39:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:39:36+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:39:36+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:39:36+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:39:36+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:39:36+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:39:36+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:39:36+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:39:37+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:39:37+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:39:37+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:39:37+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:39:37+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:39:51+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:39:51+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:39:51+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:40:28+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:40:28+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:40:28+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:40:28+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:40:28+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:40:28+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:40:28+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:40:28+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:40:28+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:40:28+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:40:28+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:40:28+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:40:28+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:40:28+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:40:43+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:40:43+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:40:43+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:40:44+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:40:44+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:40:44+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:40:44+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:40:44+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:40:44+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:40:44+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:40:44+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:40:44+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:40:44+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:40:44+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:40:44+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:40:44+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:40:44+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:42:14+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:42:14+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:42:14+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:42:15+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:42:15+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:42:15+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:42:15+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:42:15+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:42:15+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:42:15+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:42:15+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:42:15+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:42:15+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:42:15+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:42:15+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:42:15+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:42:15+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:45:27+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:45:27+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:45:27+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:45:28+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:45:28+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:45:28+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:45:28+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:45:28+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:45:28+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:45:28+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:45:28+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:45:28+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:45:28+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:45:28+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:45:28+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:45:28+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:45:28+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:46:41+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=0 size=29 referer=
+t=2019-11-07T11:48:06+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:48:06+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:48:07+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:48:07+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:48:08+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:48:08+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:48:08+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:48:08+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:48:08+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:48:08+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:48:08+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:48:08+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:48:08+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:48:08+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:48:08+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:48:08+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:48:08+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:48:08+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T11:48:28+0100 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2019-11-07T11:48:44+0100 lvl=info msg="Successful Logout" logger=http.server User=admin@localhost
+t=2019-11-07T11:48:44+0100 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=[::1] time_ms=10 size=29 referer=http://localhost:8080/profile
+t=2019-11-07T11:50:46+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T11:50:46+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T11:50:46+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T11:50:47+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T11:50:47+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T11:50:47+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T11:50:47+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T11:50:47+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T11:50:47+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T11:50:47+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T11:50:47+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T11:50:47+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T11:50:47+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T11:50:47+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T11:50:47+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T11:50:47+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T11:50:47+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T12:15:04+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T12:15:04+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T12:15:04+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:15:24+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T12:15:24+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T12:15:24+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T12:15:24+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T12:15:24+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T12:15:24+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T12:15:24+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T12:15:24+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T12:15:24+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T12:15:24+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T12:15:24+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T12:15:24+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T12:15:24+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T12:15:24+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T12:15:26+0100 lvl=info msg="Successful Logout" logger=http.server User=admin@localhost
+t=2019-11-07T12:15:26+0100 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=127.0.0.1 time_ms=40 size=29 referer="http://localhost:8080/?orgId=1"
+t=2019-11-07T12:15:26+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/img/grafana_icon.svg status=302 remote_addr=127.0.0.1 time_ms=0 size=29 referer=http://localhost:8080/
+t=2019-11-07T12:15:29+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/img/grafana_icon.svg status=302 remote_addr=127.0.0.1 time_ms=0 size=29 referer=http://localhost:8080/
+t=2019-11-07T12:15:31+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/img/grafana_icon.svg status=302 remote_addr=127.0.0.1 time_ms=0 size=29 referer=http://localhost:8080/
+t=2019-11-07T12:15:31+0100 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/img/grafana_icon.svg status=302 remote_addr=127.0.0.1 time_ms=0 size=29 referer=http://localhost:8080/
+t=2019-11-07T12:15:36+0100 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2019-11-07T12:18:46+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T12:18:46+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T12:18:46+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:18:47+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T12:18:47+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T12:18:47+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T12:18:47+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T12:18:47+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T12:18:47+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T12:18:47+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T12:18:47+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T12:18:47+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T12:18:47+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T12:18:48+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T12:18:48+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T12:18:48+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T12:18:48+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T12:18:48+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T12:21:07+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T12:21:07+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T12:21:07+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:21:08+0100 lvl=info msg="Starting Grafana" logger=server version=6.4.3 commit=3a2bfb7 branch=HEAD compiled=2019-10-16T11:32:09+0200
+t=2019-11-07T12:21:08+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana/conf/defaults.ini
+t=2019-11-07T12:21:08+0100 lvl=info msg="Config loaded from" logger=settings file=C:\\Grafana\\conf\\custom.ini
+t=2019-11-07T12:21:08+0100 lvl=info msg="Path Home" logger=settings path=C:\\Grafana
+t=2019-11-07T12:21:08+0100 lvl=info msg="Path Data" logger=settings path=C:\\Grafana\\data
+t=2019-11-07T12:21:08+0100 lvl=info msg="Path Logs" logger=settings path=C:\\Grafana\\data\\log
+t=2019-11-07T12:21:08+0100 lvl=info msg="Path Plugins" logger=settings path=C:\\Grafana\\data\\plugins
+t=2019-11-07T12:21:08+0100 lvl=info msg="Path Provisioning" logger=settings path=C:\\Grafana\\conf\\provisioning
+t=2019-11-07T12:21:08+0100 lvl=info msg="App mode production" logger=settings
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-11-07T12:21:08+0100 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing HooksService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing LoginService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing SearchService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing TracingService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-11-07T12:21:08+0100 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-11-07T12:21:08+0100 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-11-07T12:21:08+0100 lvl=info msg="Initializing Stream Manager"
+t=2019-11-07T12:21:08+0100 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:8080 protocol=http subUrl= socket=
+t=2019-11-07T12:22:11+0100 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped Stream Manager"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-11-07T12:22:11+0100 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-11-07T12:22:11+0100 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
